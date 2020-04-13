@@ -8,7 +8,7 @@
   "author": "Gabriel Rodrigues <romulogabriel@outlook.com>",
   "private": true,
   "scripts": {
-    "build": "npx quasar build",
+    "build": "npx @quasar/cli build",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ./",
     "test": "echo \"No test specified\" && exit 0"
   },
